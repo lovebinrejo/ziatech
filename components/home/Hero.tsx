@@ -6,7 +6,7 @@ import { ArrowRight, MessageCircle, CheckCircle, ShieldCheck, Clock, Zap } from 
 
 const services = [
   "Billing & Inventory Software",
-  "TecDoc Parts Catalogue Setup",
+  "Brand Spare Parts Catalogue",
   "OS Installation & Upgrades",
   "Printer & Scanner Setup",
   "Outlook & Email Config",

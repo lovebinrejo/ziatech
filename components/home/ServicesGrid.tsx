@@ -18,11 +18,11 @@ const services = [
   },
   {
     icon: BookOpen,
-    title: "TecDoc Parts Catalogue",
-    desc: "Full setup of TecDoc and other auto parts catalogues — the essential lookup tool for any spare parts shop.",
-    features: ["TecDoc installation", "Licence activation", "Multi-PC setup"],
+    title: "Brand Parts Catalogue",
+    desc: "Installation of OEM spare parts catalogues for Benz, Volvo, Scania, MAN, Hino, Hyundai, JCB, Caterpillar, Komatsu and more.",
+    features: ["OEM catalogue setup", "Licence activation", "Multi-PC access"],
     accent: "#2563EB",
-    href: "/services#tecdoc",
+    href: "/services#catalogue",
   },
   {
     icon: Monitor,
