@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none" role="img" aria-label="ZIA Tech Solutions logo">
+
+  <!-- ZTS hex badge -->
+  <polygon points="36,4 60,18 60,46 36,60 12,46 12,18" fill="#1E3A8A"/>
+  <polygon points="36,8 57,20.5 57,43.5 36,56 15,43.5 15,20.5" fill="none" stroke="#0D9488" stroke-width="1.5"/>
+
+  <!-- ZTS monogram inside hex -->
+  <text x="36" y="38" font-family="Arial,sans-serif" font-size="13" font-weight="900"
+        fill="white" text-anchor="middle" letter-spacing="-0.5">ZTS</text>
+
+  <!-- Company wordmark -->
+  <text x="76" y="34" font-family="Arial,sans-serif" font-size="22" font-weight="800"
+        fill="#1E3A8A" letter-spacing="-0.5">ZIA TECH</text>
+
+  <!-- Accent line -->
+  <rect x="76" y="40" width="160" height="2" rx="1" fill="#0D9488"/>
+
+  <!-- Tagline -->
+  <text x="76" y="58" font-family="Arial,sans-serif" font-size="11" font-weight="600"
+        fill="#0D9488" letter-spacing="3">SOLUTIONS</text>
+
+  <!-- Chennai tag -->
+  <text x="246" y="58" font-family="Arial,sans-serif" font-size="8" fill="#94A3B8"
+        letter-spacing="1">CHENNAI</text>
+
+</svg>
