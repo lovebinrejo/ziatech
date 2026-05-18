@@ -18,22 +18,21 @@ const companyName = process.env.NEXT_PUBLIC_COMPANY_NAME ?? "ZIA Tech Solutions"
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${companyName} | Expert Automotive Software Support`,
+    default: `${companyName} | E-Commerce & IT Consultancy`,
     template: `%s | ${companyName}`,
   },
   description:
-    "UAE's trusted automotive software specialists. Installation, OS upgrades, diagnostics & support for Benz, Volvo, Scania, Renault, MAN, Hino, Hyundai, JCB, Caterpillar, TecDoc, Iveco and more.",
+    "E-Commerce websites, IT consultancy, technical installation, and computer equipment trading from Sharjah, UAE.",
   keywords: [
-    "automotive software UAE",
-    "Benz software support",
-    "Volvo diagnostics UAE",
-    "Scania software UAE",
-    "TecDoc installation",
-    "Iveco EASY software",
-    "truck diagnostics UAE",
-    "heavy vehicle software",
-    "printer software support",
-    "Outlook configuration Chennai",
+    "e-commerce website development",
+    "IT consultancy UAE",
+    "technical installations consultancy",
+    "computer equipment trading",
+    "website design Sharjah",
+    "office network setup",
+    "email setup UAE",
+    "hardware supply",
+    "business technology solutions",
   ],
   authors: [{ name: companyName }],
   creator: companyName,
@@ -42,16 +41,16 @@ export const metadata: Metadata = {
     locale: "en_AE",
     url: siteUrl,
     siteName: companyName,
-    title: `${companyName} | Expert Automotive Software Support`,
+    title: `${companyName} | E-Commerce & IT Consultancy`,
     description:
-      "Expert automotive software installation, OS upgrades & diagnostics for all major brands in Sharjah, UAE.",
+      "E-Commerce websites, IT consultancy, technical installation, and computer equipment supply for businesses in the UAE.",
     images: [{ url: "/og-image.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${companyName} | Expert Automotive Software Support`,
+    title: `${companyName} | E-Commerce & IT Consultancy`,
     description:
-      "Expert automotive software installation, OS upgrades & diagnostics for all major brands in Sharjah, UAE.",
+      "E-Commerce websites, IT consultancy, technical installation, and computer equipment supply for businesses in the UAE.",
     images: ["/og-image.png"],
   },
   robots: { index: true, follow: true },
@@ -92,7 +91,7 @@ export default function RootLayout({
               "@type": "LocalBusiness",
               name: companyName,
               description:
-                "Automotive software installation, OS upgrades, diagnostics & IT support for all major vehicle brands.",
+                "E-commerce websites, IT consultancy, technical installations, and business hardware support for companies in the UAE.",
               url: siteUrl,
               telephone: `+${whatsapp}`,
               address: {

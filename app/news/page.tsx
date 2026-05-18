@@ -10,7 +10,7 @@ import { formatDate } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "News & Updates",
   description:
-    "Latest news on automotive diagnostic software updates — Scania SDP3, Volvo PTT, TecDoc, and more from ZIA Tech Solutions.",
+    "Latest news for e-commerce, IT consultancy, technical installations, and computer equipment solutions from ZIA Tech Solutions.",
 };
 
 export default function NewsPage() {
@@ -24,7 +24,7 @@ export default function NewsPage() {
           <Badge variant="teal" className="mb-4 text-xs px-3 py-1">Latest Updates</Badge>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">News &amp; Industry Updates</h1>
           <p className="text-lg text-primary-200 max-w-2xl mx-auto">
-            Stay up to date with the latest software releases and diagnostic tool news from the automotive industry.
+            Stay up to date with the latest trends in e-commerce, IT consultancy, technical installations, and business technology services.
           </p>
         </div>
       </section>

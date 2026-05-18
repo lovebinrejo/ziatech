@@ -139,7 +139,7 @@ export function ContactForm() {
           )}
         </div>
         <div className="space-y-1.5">
-          <Label htmlFor="brand">Vehicle / Software Brand</Label>
+          <Label htmlFor="brand">Project / Software Brand</Label>
           <Select onValueChange={(v) => setValue("brand", v)}>
             <SelectTrigger id="brand">
               <SelectValue placeholder="Select a brand…" />
@@ -160,7 +160,7 @@ export function ContactForm() {
         <Label htmlFor="message">Message *</Label>
         <Textarea
           id="message"
-          placeholder="Describe what you need — software name, version, issue details…"
+          placeholder="Describe what you need — website goals, IT setup, hardware, or support request…"
           rows={5}
           aria-invalid={!!errors.message}
           {...register("message")}

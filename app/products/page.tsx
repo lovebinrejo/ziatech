@@ -9,112 +9,90 @@ import { CTASection } from "@/components/home/CTASection";
 export const metadata: Metadata = {
   title: "Products",
   description:
-    "TecDoc catalogue, Iveco EASY, Scania SDP3, Volvo PTT, and more — ZIA Tech Solutions supplies and installs the leading automotive diagnostic software tools.",
+    "Business technology packages, IT hardware bundles, network solutions, and e-commerce website products from ZIA Tech Solutions.",
 };
 
 const products = [
   {
-    id: "tecdoc",
-    name: "TecDoc Parts Catalogue",
-    tagline: "The global parts reference standard",
+    id: "website-kickstart",
+    name: "Business Website Kickstart",
+    tagline: "Launch your online presence in days",
     description:
-      "TecDoc is the world's largest multi-brand parts and technical information catalogue. Covering over 900 vehicle brands, 570 parts suppliers, and 65 million+ part numbers, it's indispensable for any professional workshop.",
+      "A complete website package for service businesses, retailers, and consultants. Includes fast hosting, responsive design, and a user-friendly admin experience.",
     features: [
-      "65M+ part numbers from 570 suppliers",
-      "OE cross-references and compatibility",
-      "Single-seat and multi-user licences",
-      "2026 data refresh with EV/hybrid coverage",
-      "Fast SOLR-powered search",
-      "Offline mode via mobile app",
+      "Custom responsive website",
+      "SEO-ready landing pages",
+      "Integrated contact form",
+      "Fast hosting setup",
+      "Training for your team",
     ],
-    badge: "Parts Catalogue",
+    badge: "Web Package",
     badgeVariant: "default" as const,
     highlight: "Most Popular",
   },
   {
-    id: "iveco-easy",
-    name: "Iveco EASY",
-    tagline: "Official Iveco diagnostic platform",
+    id: "ecommerce-store",
+    name: "E-Commerce Store Package",
+    tagline: "Sell products online with a complete storefront",
     description:
-      "Iveco EASY is the factory-level diagnostic and programming tool for all Iveco commercial vehicles — from Daily vans to Stralis trucks and beyond. Supports fault reading, ECU programming, and variant coding.",
+      "Build a professional online shop with secure payments, product management, shipping setup, and integrated marketing tools.",
     features: [
-      "Full fault reading & clearing",
-      "ECU / TCU programming",
-      "Actuation & calibration tests",
-      "Variant and parameter coding",
-      "Supports Daily, Eurocargo, Stralis, S-Way",
-      "Works with all standard VCI interfaces",
+      "Online store setup",
+      "Payment gateway integration",
+      "Product catalog management",
+      "Shipping & tax configuration",
+      "Analytics and reporting",
     ],
-    badge: "Diagnostic Tool",
+    badge: "E-Commerce",
     badgeVariant: "teal" as const,
   },
   {
-    id: "scania-sdp3",
-    name: "Scania SDP3",
-    tagline: "Scania Diagnos & Programmer 3",
+    id: "it-hardware-kit",
+    name: "Office Hardware Kit",
+    tagline: "Reliable computers and equipment for modern businesses",
     description:
-      "SDP3 is Scania's official diagnostic software for trucks, buses, and engines. The 2026 v2.52 release adds full Super engine support, guided diagnostics, and improved CAN data logging.",
+      "Supply and configure desktops, laptops, printers, and accessories that match your budget and performance needs.",
     features: [
-      "Full DTC read/clear for all Scania platforms",
-      "Super 13L engine support (v2.52)",
-      "Guided diagnostics workflows",
-      "ECU parameter programming",
-      "Real-time CAN data logging",
-      "Integrates with PTT programmer",
+      "PC and laptop supply",
+      "Printer and scanner setup",
+      "UPS and backup hardware",
+      "Peripheral sourcing",
+      "Onsite installation",
     ],
-    badge: "Diagnostic Tool",
-    badgeVariant: "teal" as const,
-  },
-  {
-    id: "volvo-ptt",
-    name: "Volvo PTT / VCADS",
-    tagline: "Premium Tech Tool for Volvo Trucks & Buses",
-    description:
-      "Volvo's PTT 3.x brings cloud-connected ECU updates, remote programming support, and live Volvo ASIST integration — making it the most advanced Volvo workshop tool available.",
-    features: [
-      "Cloud-based ECU software updates",
-      "Remote programming capability",
-      "Full fault code coverage",
-      "Bus & truck support (9700, BZL EV)",
-      "Integrates with Volvo ASIST",
-      "VCADS / Volvo Trucks compatible",
-    ],
-    badge: "Diagnostic Tool",
-    badgeVariant: "teal" as const,
-  },
-  {
-    id: "man-cats",
-    name: "MAN-cats III",
-    tagline: "Official MAN diagnostic & programming system",
-    description:
-      "MAN-cats III provides complete diagnostic coverage for MAN trucks and buses. Supports variant coding, software updates, guided fault isolation, and online parameter programming.",
-    features: [
-      "All MAN truck & bus models",
-      "Guided fault isolation",
-      "Variant coding & parameter programming",
-      "Online ECU software updates",
-      "MAN-Portal integration",
-      "MAN TGX / TGS / Lion's Coach support",
-    ],
-    badge: "Diagnostic Tool",
-    badgeVariant: "teal" as const,
-  },
-  {
-    id: "cat-et",
-    name: "Caterpillar ET (Electronic Technician)",
-    tagline: "Factory diagnostics for Cat construction equipment",
-    description:
-      "Cat ET is the official diagnostic tool for all Caterpillar machines and engines. Provides ECM diagnostics, configuration, and calibration for excavators, bulldozers, generators, and more.",
-    features: [
-      "Full ECM fault read & clear",
-      "Machine configuration & calibration",
-      "Real-time parameter monitoring",
-      "Flash programming support",
-      "Supports all Cat machine families",
-      "Works with Cat Comm Adapter III",
-    ],
-    badge: "Construction Equipment",
+    badge: "Hardware",
     badgeVariant: "warning" as const,
+  },
+  {
+    id: "network-connectivity",
+    name: "Network & Connectivity Bundle",
+    tagline: "Secure WiFi and wired networks for smooth business operations",
+    description:
+      "Design, install, and secure office networks with routers, switches, access points, and network optimization.",
+    features: [
+      "WiFi access point deployment",
+      "LAN cabling and setup",
+      "Router and firewall configuration",
+      "Guest network setup",
+      "Performance tuning",
+    ],
+    badge: "Network",
+    badgeVariant: "teal" as const,
+  },
+  {
+    id: "security-backup",
+    name: "Security & Backup Bundle",
+    tagline: "Protect your data and keep your systems safe",
+    description:
+      "Implement secure backup, antivirus, disaster recovery, and access controls so your business data stays protected.",
+    features: [
+      "Automated backups",
+      "Endpoint security",
+      "Recovery planning",
+      "User access controls",
+      "Regular maintenance checks",
+    ],
+    badge: "Security",
+    badgeVariant: "outline" as const,
   },
 ];
 
@@ -124,12 +102,12 @@ export default function ProductsPage() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary-950 to-teal-900 text-white py-24 pt-32">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Badge variant="teal" className="mb-4 text-xs px-3 py-1">Software Tools</Badge>
+          <Badge variant="teal" className="mb-4 text-xs px-3 py-1">Business Products</Badge>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-            Diagnostic &amp; Workshop Software
+            Technology Packages for Every Business
           </h1>
           <p className="text-lg text-teal-100 max-w-2xl mx-auto">
-            We supply, install, and support the leading automotive diagnostic platforms for workshops across the UAE.
+            Discover our business-ready technology bundles for e-commerce, office IT, networks, hardware, and data protection.
           </p>
         </div>
       </section>

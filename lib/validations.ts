@@ -22,27 +22,23 @@ export const contactSchema = z.object({
 export type ContactFormData = z.infer<typeof contactSchema>;
 
 export const SERVICE_OPTIONS = [
-  { value: "software-installation",  label: "Software Installation" },
-  { value: "os-upgrade",             label: "OS Upgrade / Configuration" },
-  { value: "diagnostics",            label: "Brand Diagnostics" },
-  { value: "tecdoc",                 label: "TecDoc Setup" },
-  { value: "iveco-easy",             label: "Iveco EASY Software" },
-  { value: "printer-software",       label: "Printer Software Support" },
-  { value: "outlook-setup",          label: "Outlook / Email Configuration" },
-  { value: "other",                  label: "Other / General Enquiry" },
+  { value: "ecommerce-websites",      label: "E-Commerce Websites" },
+  { value: "it-consultancy",          label: "IT Consultancy" },
+  { value: "technical-installation",  label: "Technical Installation" },
+  { value: "hardware-supply",         label: "Computer Equipment Supply" },
+  { value: "email-productivity",      label: "Email & Productivity Setup" },
+  { value: "backup-recovery",         label: "Backup & Recovery" },
+  { value: "other",                   label: "Other / General Enquiry" },
 ] as const;
 
 export const BRAND_OPTIONS = [
-  { value: "mercedes-benz", label: "Mercedes-Benz" },
-  { value: "volvo",         label: "Volvo" },
-  { value: "scania",        label: "Scania" },
-  { value: "renault",       label: "Renault" },
-  { value: "man",           label: "MAN" },
-  { value: "hino",          label: "Hino" },
-  { value: "hyundai",       label: "Hyundai" },
-  { value: "jcb",           label: "JCB" },
-  { value: "caterpillar",   label: "Caterpillar" },
-  { value: "iveco",         label: "Iveco" },
-  { value: "tecdoc",        label: "TecDoc" },
-  { value: "other",         label: "Other" },
+  { value: "microsoft-365", label: "Microsoft 365" },
+  { value: "google-workspace", label: "Google Workspace" },
+  { value: "apple", label: "Apple" },
+  { value: "hp", label: "HP" },
+  { value: "dell", label: "Dell" },
+  { value: "cisco", label: "Cisco" },
+  { value: "ubiquiti", label: "Ubiquiti" },
+  { value: "lenovo", label: "Lenovo" },
+  { value: "other", label: "Other" },
 ] as const;

@@ -6,11 +6,11 @@ import { ContactForm } from "@/components/contact/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Send an enquiry to ZIA Tech Solutions — get a quote for software installation, diagnostics, or IT support. We respond within one business day.",
+    "Send an enquiry to ZIA Tech Solutions — get a quote for e-commerce websites, IT consultancy, technical installations, or computer equipment supply. We respond within one business day.",
 };
 
 export default function ContactPage() {
-  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971501234567";
+  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971556966870";
 
   const contactDetails = [
     {
@@ -22,8 +22,8 @@ export default function ContactPage() {
     {
       icon: Mail,
       label: "Email",
-      value: "info@ziatechsolutions.com",
-      href: "mailto:info@ziatechsolutions.com",
+      value: "info@ziatechsolutions.ae",
+      href: "mailto:info@ziatechsolutions.ae",
     },
     {
       icon: MapPin,
@@ -63,7 +63,7 @@ export default function ContactPage() {
                   Let&apos;s Talk
                 </h2>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Whether you need a simple software installation or ongoing multi-brand workshop support, we are happy to help.
+                  Whether you need a website, IT consultancy, network installation, or computer equipment supply, our team is ready to help.
                 </p>
               </div>
 
@@ -100,7 +100,7 @@ export default function ContactPage() {
 
               {/* WhatsApp CTA */}
               <a
-                href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hi, I need automotive software support")}`}
+                href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hi, I need help with e-commerce, IT consultancy, or computer equipment")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-4 rounded-xl bg-[#25D366]/10 border border-[#25D366]/30 hover:bg-[#25D366]/20 transition-colors group"

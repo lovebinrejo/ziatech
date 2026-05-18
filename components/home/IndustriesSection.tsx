@@ -6,50 +6,50 @@ import { ArrowRight } from "lucide-react";
 
 const industries = [
   {
-    emoji: "🔩",
-    title: "Auto Spare Parts Shops",
-    desc: "Our primary focus. Billing software, TecDoc catalogue, printer setup, and full IT support for auto parts retailers.",
-    tags: ["Billing Software", "TecDoc Catalogue", "Printer Setup"],
+    emoji: "�",
+    title: "E-Commerce Retailers",
+    desc: "Online store setup, payment integration, and product management for modern retailers.",
+    tags: ["Online Stores", "Checkout", "Product Catalogues"],
     color: "from-teal-600/20 to-teal-800/10",
     border: "border-teal-500/20",
   },
   {
     emoji: "🏪",
     title: "General Trading & Retail",
-    desc: "POS systems, inventory management, and IT infrastructure for hardware stores, traders, and general retailers.",
+    desc: "POS integration, inventory management, and hardware setup for retail and trading businesses.",
     tags: ["POS Systems", "Inventory Software", "Barcode Printing"],
     color: "from-blue-600/20 to-blue-800/10",
     border: "border-blue-500/20",
   },
   {
-    emoji: "🔧",
-    title: "Garages & Service Centres",
-    desc: "Job card software, billing systems, and IT setup for automotive garages and vehicle service workshops.",
-    tags: ["Job Card Software", "Billing System", "Workshop IT"],
+    emoji: "💼",
+    title: "Professional Services",
+    desc: "IT consultancy, workflow planning, and productivity tools for small consultancies and agencies.",
+    tags: ["IT Strategy", "Productivity", "Collaboration"],
     color: "from-purple-600/20 to-purple-800/10",
     border: "border-purple-500/20",
   },
   {
     emoji: "🏗️",
-    title: "Machinery & Equipment Dealers",
-    desc: "Parts catalogue setup, stock management software, and hardware support for heavy equipment dealers.",
-    tags: ["Parts Catalogue", "Stock Software", "Hardware Setup"],
+    title: "Manufacturing & Equipment",
+    desc: "Hardware deployment, networking, and system support for industrial and equipment-based firms.",
+    tags: ["Hardware Setup", "Networking", "Automation"],
     color: "from-amber-600/20 to-amber-800/10",
     border: "border-amber-500/20",
   },
   {
     emoji: "🖥️",
     title: "Offices & Small Businesses",
-    desc: "Complete office IT: Windows setup, Outlook config, WiFi, printers, and ongoing tech support for SMEs.",
-    tags: ["Office IT Setup", "Email Config", "WiFi & Network"],
+    desc: "Office IT, email setup, WiFi, printers, and ongoing technology support for SMEs.",
+    tags: ["Office IT", "Email Config", "WiFi & Network"],
     color: "from-green-600/20 to-green-800/10",
     border: "border-green-500/20",
   },
   {
     emoji: "📦",
     title: "Wholesale & Distribution",
-    desc: "Multi-user billing, warehouse inventory systems, and networking for spare parts distributors and wholesalers.",
-    tags: ["Multi-User Billing", "Warehouse Software", "Network Setup"],
+    desc: "Warehouse systems, billing, and network infrastructure for distribution and logistics operations.",
+    tags: ["Warehouse Software", "Billing", "Network Setup"],
     color: "from-cyan-600/20 to-cyan-800/10",
     border: "border-cyan-500/20",
   },
@@ -77,7 +77,7 @@ export function IndustriesSection() {
             transition={{ delay: 0.1 }}
             className="text-4xl sm:text-5xl font-black text-gray-900 dark:text-white mb-4 tracking-tight"
           >
-            Every Type of Shop.
+            Every Type of Business.
             <br />
             <span className="gradient-text">One Trusted Partner.</span>
           </motion.h2>
@@ -88,7 +88,7 @@ export function IndustriesSection() {
             transition={{ delay: 0.2 }}
             className="text-gray-500 dark:text-gray-400 max-w-xl mx-auto"
           >
-            We support spare parts shops, garages, traders, and any business that relies on computers to operate.
+            We support retailers, offices, distributors, and any business that relies on technology to operate.
           </motion.p>
         </div>
 

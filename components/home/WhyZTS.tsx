@@ -6,20 +6,20 @@ import { ShieldCheck, Zap, Globe, HeadphonesIcon, Award, RefreshCw } from "lucid
 const reasons = [
   {
     icon: Award,
-    title: "Parts Shop Specialists",
-    desc: "We understand the software that spare parts shops actually use — TecDoc, billing systems, catalogues. Not a generic IT company.",
+    title: "Specialised Tech Consulting",
+    desc: "We understand e-commerce systems, office infrastructure, and hardware deployments. Not a generic IT provider.",
     color: "#F59E0B",
   },
   {
     icon: Zap,
     title: "Same-Day Service",
-    desc: "Most software installations and PC issues are resolved the same day. Remote fixes often done within 2 hours of your call.",
+    desc: "Most setup and troubleshooting tasks are completed the same day. Remote fixes are often done within hours.",
     color: "#0D9488",
   },
   {
     icon: Globe,
     title: "Remote & On-Site",
-    desc: "We come to your shop or connect remotely — whichever is faster. No need to bring your PC anywhere.",
+    desc: "We visit your office or connect remotely — whichever is faster. No need to move devices away from the workplace.",
     color: "#2563EB",
   },
   {
@@ -69,7 +69,7 @@ export function WhyZTS() {
               transition={{ delay: 0.1 }}
               className="text-4xl sm:text-5xl font-black text-white mb-6 tracking-tight leading-tight"
             >
-              Your Shop Deserves
+              Your Business Deserves
               <br />
               More Than a
               <br />
@@ -82,7 +82,7 @@ export function WhyZTS() {
               transition={{ delay: 0.2 }}
               className="text-gray-400 leading-relaxed mb-8"
             >
-              ZIA Tech Solutions specialises in spare parts shop IT. We know exactly what software you need, how to set it up, and how to keep it running — so you never lose a sale to a crashed computer.
+              ZIA Tech Solutions specialises in e-commerce and business technology. We know the tools, installation steps, and support needed to keep your office systems running smoothly.
             </motion.p>
 
             {/* Big stat */}
@@ -93,7 +93,7 @@ export function WhyZTS() {
               transition={{ delay: 0.3 }}
               className="glass rounded-2xl p-6 inline-block"
             >
-              <p className="text-5xl font-black gradient-text-gold mb-1">99%</p>
+              <p className="text-5xl font-black gradient-text-gold mb-1">100%</p>
               <p className="text-sm text-gray-400">Client satisfaction across 800+ installations</p>
             </motion.div>
           </div>

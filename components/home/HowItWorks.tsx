@@ -8,14 +8,14 @@ const steps = [
     step: "01",
     icon: PhoneCall,
     title: "Call or WhatsApp Us",
-    desc: "Tell us what you need — billing software, TecDoc, printer setup, or any IT issue. We assess your requirements remotely or at your shop.",
+    desc: "Tell us what you need — e-commerce websites, network setup, hardware supply, or any IT issue. We assess your requirements remotely or at your site.",
     color: "#0D9488",
   },
   {
     step: "02",
     icon: Settings,
     title: "We Install & Configure",
-    desc: "Our technician installs and fully configures the software or hardware at your premises or via remote access — fast and hassle-free.",
+    desc: "Our team installs and configures software or hardware at your premises or via remote access — fast and hassle-free.",
     color: "#2563EB",
   },
   {
@@ -52,7 +52,7 @@ export function HowItWorks() {
             transition={{ delay: 0.1 }}
             className="text-4xl sm:text-5xl font-black text-white mb-4 tracking-tight"
           >
-            Your Shop Running in
+            Your Business Running in
             <span className="gradient-text"> 3 Steps</span>
           </motion.h2>
           <motion.p

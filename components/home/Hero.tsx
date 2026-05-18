@@ -5,24 +5,24 @@ import { motion } from "framer-motion";
 import { ArrowRight, MessageCircle, CheckCircle, ShieldCheck, Clock, Zap } from "lucide-react";
 
 const services = [
-  "Billing & Inventory Software",
-  "Brand Spare Parts Catalogue",
-  "OS Installation & Upgrades",
-  "Printer & Scanner Setup",
-  "Outlook & Email Config",
-  "Hardware Repair & Supply",
+  "E-Commerce Website Design",
+  "IT Consultancy & Strategy",
+  "Technical Installations",
+  "Computer Hardware Supply",
   "Network & WiFi Setup",
-  "Data Backup & Recovery",
+  "Email & Productivity",
+  "Data Backup & Security",
+  "Ongoing Support",
 ];
 
 const trust = [
-  { icon: ShieldCheck, text: "Licensed Software Only" },
-  { icon: Clock,       text: "Same-Day Response" },
+  { icon: ShieldCheck, text: "Business-Ready Solutions" },
+  { icon: Clock,       text: "Fast Turnaround" },
   { icon: Zap,         text: "Remote & On-Site" },
 ];
 
 export function Hero() {
-  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971501234567";
+  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971556966870";
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-navy-900 text-white pt-16">
@@ -60,18 +60,7 @@ export function Hero() {
 
           {/* ── Left column ── */}
           <div>
-            {/* Eyebrow */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2.5 glass rounded-full px-4 py-2 mb-8"
-            >
-              <span className="w-2 h-2 rounded-full bg-teal-400 animate-pulse" />
-              <span className="text-sm font-medium text-teal-300 tracking-wide">
-                Sharjah, UAE · Spare Parts Shop Software Specialists
-              </span>
-            </motion.div>
+
 
             {/* Headline */}
             <motion.h1
@@ -80,11 +69,11 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-5xl sm:text-6xl lg:text-7xl font-black leading-[1.05] tracking-tight mb-6"
             >
-              <span className="text-white">Your Parts Shop.</span>
+              <span className="text-white">Build your online business.</span>
               <br />
-              <span className="gradient-text">Fully Powered.</span>
+              <span className="gradient-text">Modernize your IT setup.</span>
               <br />
-              <span className="text-white">Always Running.</span>
+              <span className="text-white">Grow with confidence.</span>
             </motion.h1>
 
             {/* Sub */}
@@ -94,7 +83,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg text-gray-400 mb-8 max-w-xl leading-relaxed"
             >
-              ZIA Tech Solutions installs, configures, and supports all the software your spare parts business needs — billing, catalogues, printers, email, and more. Fast, affordable, and done right.
+              ZIA Tech Solutions delivers e-commerce websites, office IT consultancy, infrastructure installation, and computer hardware solutions — all with professional, fast service.
             </motion.p>
 
             {/* Service list */}
@@ -136,7 +125,7 @@ export function Hero() {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
               <a
-                href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hi ZIA Tech Solutions, I need software support for my spare parts shop")}`}
+                href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hi ZIA Tech Solutions, I need help with e-commerce, IT consultancy, or hardware installation")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl px-7 py-3.5 text-base font-bold text-white glass hover:bg-white/10 transition-all duration-200"
@@ -187,10 +176,10 @@ export function Hero() {
 
               {/* Metrics */}
               {[
-                { label: "Software Installations",   value: "800+",  bar: 90, color: "#0D9488" },
-                { label: "Shops Served",              value: "200+",  bar: 74, color: "#2563EB" },
-                { label: "Remote Support Sessions",   value: "1,500+",bar: 87, color: "#8B5CF6" },
-                { label: "Client Satisfaction Rate",  value: "99%",   bar: 99, color: "#F59E0B" },
+                { label: "Technology Projects",      value: "800+",  bar: 90, color: "#0D9488" },
+                { label: "Businesses Supported",      value: "200+",  bar: 74, color: "#2563EB" },
+                { label: "Remote Support Sessions",   value: "1,500+", bar: 87, color: "#8B5CF6" },
+                { label: "Client Satisfaction",       value: "100%",  bar: 100, color: "#F59E0B" },
               ].map(({ label, value, bar, color }) => (
                 <div key={label}>
                   <div className="flex justify-between text-sm mb-1.5">
@@ -212,7 +201,7 @@ export function Hero() {
               {/* Bottom CTA */}
               <div className="pt-4 border-t border-white/10">
                 <Link href="/contact" className="flex items-center justify-between p-3 rounded-xl bg-teal-600/20 border border-teal-500/30 hover:bg-teal-600/30 transition-colors group">
-                  <span className="text-sm font-semibold text-teal-300">Book a service visit</span>
+                  <span className="text-sm font-semibold text-teal-300">Book a consultation</span>
                   <ArrowRight className="w-4 h-4 text-teal-400 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </div>

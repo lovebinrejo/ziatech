@@ -9,10 +9,10 @@ interface WhatsAppWidgetProps {
 }
 
 const quickMessages = [
-  "Hi, I need software installation help",
-  "Hi, I need Benz/Volvo diagnostics support",
-  "Hi, I need TecDoc setup assistance",
-  "Hi, I need a quote for your services",
+  "Hi, I need a quote for an e-commerce website",
+  "Hi, I need IT consultancy for my business",
+  "Hi, I need network or technical installation support",
+  "Hi, I need help buying computer equipment",
 ];
 
 export function WhatsAppWidget({ phoneNumber }: WhatsAppWidgetProps) {

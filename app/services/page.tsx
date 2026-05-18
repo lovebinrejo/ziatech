@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
 import {
-  Download, Monitor, Cpu, BookOpen, Wrench, Printer, Mail,
+  Download, Monitor, Cpu, BookOpen, Wrench, Printer, Mail, HardDrive, Wifi, DatabaseBackup,
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -13,11 +13,11 @@ import { CTASection } from "@/components/home/CTASection";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Automotive software installation, OS upgrades, brand diagnostics, TecDoc, Iveco EASY, printer software and Outlook configuration — all from ZIA Tech Solutions.",
+    "E-Commerce website development, IT consultancy, technical installations, and business technology support from ZIA Tech Solutions.",
 };
 
 const iconMap: Record<string, React.ElementType> = {
-  Download, Monitor, Cpu, BookOpen, Wrench, Printer, Mail,
+  Download, Monitor, Cpu, BookOpen, Wrench, Printer, Mail, HardDrive, Wifi, DatabaseBackup,
 };
 
 export default function ServicesPage() {
@@ -28,10 +28,10 @@ export default function ServicesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge variant="teal" className="mb-4 text-xs px-3 py-1">Our Services</Badge>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-            Everything Your Workshop Needs
+            Everything Your Business Needs
           </h1>
           <p className="text-lg text-primary-200 max-w-2xl mx-auto">
-            From initial software installation through to advanced ECU programming, we handle every aspect of automotive software support.
+            From e-commerce websites to office IT, hardware installation, and consultancy — we deliver the technology your business needs to grow.
           </p>
         </div>
       </section>

@@ -18,7 +18,7 @@ export function CTASection() {
           transition={{ duration: 0.5 }}
           className="text-3xl sm:text-4xl font-extrabold mb-4"
         >
-          Need Automotive Software Help?
+          Need Better E-Commerce or IT Support?
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 16 }}
@@ -48,7 +48,7 @@ export function CTASection() {
             className="bg-[#25D366] hover:bg-[#128C7E] text-white"
           >
             <a
-              href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hi, I need automotive software support")}`}
+              href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hi, I need help with e-commerce, IT infrastructure, or hardware setup")}`}
               target="_blank"
               rel="noopener noreferrer"
             >

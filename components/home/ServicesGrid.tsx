@@ -10,67 +10,67 @@ import {
 const services = [
   {
     icon: Calculator,
-    title: "Billing & POS Software",
-    desc: "Install and configure billing, invoicing, and point-of-sale software tailored for spare parts businesses.",
-    features: ["Invoice & receipt printing", "Stock management", "Customer records"],
+    title: "E-Commerce Website Setup",
+    desc: "Design and launch an online store built to sell products, capture leads, and convert visitors consistently.",
+    features: ["Custom storefront", "Product catalogue", "Secure checkout"],
     accent: "#0D9488",
-    href: "/services#billing",
+    href: "/services#ecommerce",
   },
   {
     icon: BookOpen,
-    title: "Brand Parts Catalogue",
-    desc: "Installation of OEM spare parts catalogues for Benz, Volvo, Scania, MAN, Hino, Hyundai, JCB, Caterpillar, Komatsu and more.",
-    features: ["OEM catalogue setup", "Licence activation", "Multi-PC access"],
+    title: "IT Consultancy & Strategy",
+    desc: "Plan the right technology stack for your business, from website architecture to office systems and future growth.",
+    features: ["Infrastructure planning", "Software guidance", "Business process review"],
     accent: "#2563EB",
-    href: "/services#catalogue",
+    href: "/services#consultancy",
   },
   {
     icon: Monitor,
-    title: "OS Installation & Upgrades",
-    desc: "Clean Windows 10/11 installations, system upgrades, driver setup, and performance tuning for your PCs.",
-    features: ["Windows 10/11 install", "Driver configuration", "Data migration"],
+    title: "Hardware Procurement & Setup",
+    desc: "Source, configure, and deploy computers, servers, and peripherals that match your budget and reliability needs.",
+    features: ["PC & laptop setup", "Printer installation", "Hardware sourcing"],
     accent: "#8B5CF6",
-    href: "/services#os-upgrade",
-  },
-  {
-    icon: Printer,
-    title: "Printer & Scanner Setup",
-    desc: "Install, configure, and troubleshoot all printer and scanner brands — USB, network, and wireless.",
-    features: ["Network printing", "Scan-to-email", "Driver management"],
-    accent: "#F59E0B",
-    href: "/services#printer-software",
-  },
-  {
-    icon: Mail,
-    title: "Outlook & Email Config",
-    desc: "Microsoft Outlook and Microsoft 365 setup, business email configuration, and mailbox migration.",
-    features: ["Outlook/M365 setup", "Mailbox migration", "Calendar & contacts sync"],
-    accent: "#EF4444",
-    href: "/services#outlook-setup",
-  },
-  {
-    icon: HardDrive,
-    title: "Hardware Repair & Supply",
-    desc: "Laptop and desktop repair, RAM/SSD upgrades, hardware sourcing, and preventive maintenance.",
-    features: ["Laptop & PC repair", "RAM & SSD upgrades", "Hardware supply"],
-    accent: "#10B981",
     href: "/services#hardware",
   },
   {
-    icon: Wifi,
-    title: "Network & WiFi Setup",
-    desc: "LAN/WiFi installation, router configuration, and network sharing for multi-PC spare parts shops.",
-    features: ["WiFi & LAN setup", "Router configuration", "Printer sharing"],
-    accent: "#0D9488",
+    icon: Printer,
+    title: "Network & WiFi Installation",
+    desc: "Set up reliable wired and wireless office networks so your team can work smoothly and securely.",
+    features: ["WiFi planning", "Router configuration", "Network security"],
+    accent: "#F59E0B",
     href: "/services#network",
   },
   {
-    icon: DatabaseBackup,
+    icon: Mail,
+    title: "Email & Productivity Setup",
+    desc: "Configure business email, collaboration tools, and secure access so your team can communicate efficiently.",
+    features: ["Office 365 / Google Workspace", "Mailbox setup", "Calendar sync"],
+    accent: "#EF4444",
+    href: "/services#email",
+  },
+  {
+    icon: HardDrive,
     title: "Data Backup & Recovery",
-    desc: "Protect your shop's critical data with automated backup solutions and fast recovery when things go wrong.",
-    features: ["Cloud & local backup", "Data recovery", "Scheduled automation"],
-    accent: "#2563EB",
+    desc: "Protect your business data with automated backups, recovery plans, and secure storage options.",
+    features: ["Cloud backup", "Local backup", "Recovery planning"],
+    accent: "#10B981",
     href: "/services#backup",
+  },
+  {
+    icon: Wifi,
+    title: "Office Automation",
+    desc: "Improve everyday productivity with workflow automation, device integration, and secure document management.",
+    features: ["Workflow automation", "Document sharing", "Process optimisation"],
+    accent: "#0D9488",
+    href: "/services#automation",
+  },
+  {
+    icon: DatabaseBackup,
+    title: "Remote Support & Maintenance",
+    desc: "Ongoing support for your systems, with remote troubleshooting, updates, and proactive maintenance.",
+    features: ["Remote assistance", "Maintenance plans", "System health checks"],
+    accent: "#2563EB",
+    href: "/services#support",
   },
 ];
 
@@ -96,9 +96,9 @@ export function ServicesGrid() {
             transition={{ delay: 0.1 }}
             className="text-4xl sm:text-5xl font-black text-gray-900 dark:text-white mb-4 tracking-tight"
           >
-            Everything Your Shop
+            Everything Your Business
             <br />
-            <span className="gradient-text">Needs to Run Smoothly</span>
+            <span className="gradient-text">Needs to Grow Online</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 12 }}
@@ -107,7 +107,7 @@ export function ServicesGrid() {
             transition={{ delay: 0.2 }}
             className="text-gray-500 dark:text-gray-400 max-w-2xl mx-auto text-lg"
           >
-            From billing software to printers and WiFi — we handle all the IT so you can focus on selling parts.
+            From website development to office IT, networks, and hardware setup — we handle your technology so you can focus on business.
           </motion.p>
         </div>
 

@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 
 const companyName = process.env.NEXT_PUBLIC_COMPANY_NAME ?? "ZIA Tech Solutions";
-const whatsapp    = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971501234567";
+const whatsapp    = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971556966870";
 
 
 export function Footer() {
@@ -50,7 +50,7 @@ export function Footer() {
             </Link>
 
             <p className="text-sm text-gray-500 leading-relaxed mb-6 max-w-xs">
-              Spare parts shop software specialists in Sharjah, UAE. Billing systems, TecDoc catalogues, printers, OS upgrades, and full IT support.
+              E-commerce, office IT, and computer hardware specialists in Sharjah, UAE. Websites, networking, email, and reliable technology support.
             </p>
 
             {/* Status badge */}
@@ -62,7 +62,7 @@ export function Footer() {
             {/* CTA buttons */}
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hi ZIA Tech Solutions, I need software support")}`}
+                href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hi ZIA Tech Solutions, I need help with e-commerce, IT consultancy, or hardware procurement")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm font-semibold text-white rounded-xl px-5 py-2.5 transition-all hover:-translate-y-0.5"
@@ -117,7 +117,7 @@ export function Footer() {
                     <div>
                       <p className="text-xs text-gray-500 mb-0.5">Phone</p>
                       <a href={`tel:+${whatsapp}`} className="text-sm text-gray-300 hover:text-white transition-colors">
-                        +971 50 123 4567
+                        +971 55 696 6870
                       </a>
                     </div>
                   </div>
@@ -128,8 +128,8 @@ export function Footer() {
                     </div>
                     <div>
                       <p className="text-xs text-gray-500 mb-0.5">Email</p>
-                      <a href="mailto:info@ziatechsolutions.com" className="text-sm text-gray-300 hover:text-white transition-colors">
-                        info@ziatechsolutions.com
+                      <a href="mailto:info@ziatechsolutions.ae" className="text-sm text-gray-300 hover:text-white transition-colors">
+                        info@ziatechsolutions.ae
                       </a>
                     </div>
                   </div>

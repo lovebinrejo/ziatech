@@ -35,7 +35,7 @@ export function ServicesOverview() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-3xl sm:text-4xl font-extrabold text-gray-900 dark:text-white mb-4"
           >
-            Comprehensive Automotive Software Services
+            Comprehensive Business Technology Services
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 12 }}
@@ -44,7 +44,7 @@ export function ServicesOverview() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="max-w-2xl mx-auto text-gray-500 dark:text-gray-400"
           >
-            From single-seat diagnostic tool setup to multi-brand workshop infrastructure, we have you covered.
+            From e-commerce websites to office IT, hardware installation, and ongoing support — we help businesses stay productive and grow.
           </motion.p>
         </div>
 

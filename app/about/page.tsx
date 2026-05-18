@@ -9,34 +9,34 @@ import { CTASection } from "@/components/home/CTASection";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "ZIA Tech Solutions — automotive software expertise based in Sharjah, UAE. Learn about our team and our commitment to fast, professional support across the Middle East.",
+    "ZIA Tech Solutions — E-Commerce websites, IT consultancy, technical installations, and computer hardware supply from Sharjah, UAE.",
 };
 
 const values = [
   {
     icon: Award,
-    title: "OEM-Grade Expertise",
-    description: "We work exclusively with genuine OEM software and tools — no piracy, no shortcuts.",
+    title: "Commercial Website Expertise",
+    description: "We design e-commerce and business websites that convert visitors into customers with clarity and speed.",
   },
   {
     icon: Clock,
-    title: "Fast Turnaround",
-    description: "Most remote support requests are resolved same-day. On-site visits are scheduled within 24 hours.",
+    title: "Rapid Deployment",
+    description: "Whether remote or on-site, our team moves quickly to minimise disruption and get your systems online fast.",
   },
   {
     icon: Users,
-    title: "Workshop-First Mindset",
-    description: "We understand workshop operations. Downtime costs money — we minimise it.",
+    title: "Business-First Approach",
+    description: "We align technology with your goals, delivering solutions that fit your workflows and scale with your business.",
   },
   {
     icon: CheckCircle,
-    title: "End-to-End Support",
-    description: "From initial purchase to ongoing updates, we are your long-term software partner.",
+    title: "Full-Service Delivery",
+    description: "From planning to installation to support, we cover the full technology lifecycle for your company.",
   },
 ];
 
 export default function AboutPage() {
-  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971501234567";
+  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971556966870";
 
   return (
     <>
@@ -45,10 +45,10 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge variant="teal" className="mb-4 text-xs px-3 py-1">About Us</Badge>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4">
-            UAE&apos;s Automotive Software Specialists
+            E-Commerce, IT & Technology Experts
           </h1>
           <p className="text-lg text-teal-100 max-w-2xl mx-auto">
-            Based in Sharjah, we are the go-to partner for workshops across the UAE and the wider Middle East needing reliable, professional automotive software support.
+            Based in Sharjah, we help businesses launch e-commerce websites, modernize IT systems, install technical infrastructure, and supply computer equipment with service excellence.
           </p>
         </div>
       </section>
@@ -64,13 +64,13 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-400 leading-relaxed">
                 <p>
-                  ZIA Tech Solutions was founded with a single mission: to make professional-grade automotive software support accessible to every workshop in the UAE and the Middle East — not just authorised dealers.
+                  ZIA Tech Solutions was founded with a single mission: to make powerful business technology easy to adopt for every company, from startups to established retailers.
                 </p>
                 <p>
-                  We started by supporting independent Mercedes-Benz and Volvo workshops in Sharjah, quickly expanding to cover trucks, construction equipment, and specialised software platforms like TecDoc and Iveco EASY.
+                  We began by designing websites and solving office IT challenges in Sharjah, then expanded into e-commerce, technical installations, and computer equipment supply across the UAE.
                 </p>
                 <p>
-                  Today, we support over 11 major brands and software platforms, serving workshops ranging from single-technician operations to multi-bay authorised service centres across the UAE and beyond.
+                  Today, we support diverse businesses with web platforms, IT strategy, infrastructure installation, and continual technology maintenance so our clients can focus on growth.
                 </p>
               </div>
               <div className="mt-6">
@@ -128,8 +128,8 @@ export default function AboutPage() {
               <div className="p-8 space-y-4 border-b md:border-b-0 md:border-r border-gray-200 dark:border-gray-700">
                 {[
                   { icon: MapPin, label: "Sharjah, United Arab Emirates", href: undefined },
-                  { icon: Phone, label: "+971 50 123 4567", href: "tel:+971501234567" },
-                  { icon: Mail, label: "info@ziatechsolutions.com", href: "mailto:info@ziatechsolutions.com" },
+                  { icon: Phone, label: "+971 55 696 6870", href: "tel:+971556966870" },
+                  { icon: Mail, label: "info@ziatechsolutions.ae", href: "mailto:info@ziatechsolutions.ae" },
                   { icon: Clock, label: "Mon–Fri · 9:00 AM – 6:00 PM GST", href: undefined },
                 ].map(({ icon: Icon, label, href }) => (
                   <div key={label} className="flex items-center gap-3">

@@ -3,8 +3,9 @@
 import { Resend } from "resend";
 import { contactSchema, type ContactFormData } from "@/lib/validations";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-const contactEmail = process.env.CONTACT_EMAIL ?? "info@ziatechsolutions.com";
+const resendApiKey = process.env.RESEND_API_KEY ?? "";
+const resend = resendApiKey ? new Resend(resendApiKey) : null;
+const contactEmail = process.env.CONTACT_EMAIL ?? "info@ziatechsolutions.ae";
 const companyName  = process.env.NEXT_PUBLIC_COMPANY_NAME ?? "ZIA Tech Solutions";
 
 export type ContactActionResult =
@@ -26,6 +27,16 @@ export async function submitContactForm(
   }
 
   const { name, email, phone, service, brand, message } = parsed.data;
+
+  if (!resend) {
+    return {
+      success: false,
+      errors: {
+        root:
+          "Email service is currently unavailable. Please contact us directly via WhatsApp or email.",
+      },
+    };
+  }
 
   try {
     // Send notification to company

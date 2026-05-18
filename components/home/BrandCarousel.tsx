@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { brands } from "@/lib/data/brands";
 
 const categoryLabel: Record<string, string> = {
-  "parts-catalogue": "Spare Parts Catalogue",
+  "technology-partner": "Technology Partner",
 };
 
 export function BrandCarousel() {
@@ -14,7 +14,7 @@ export function BrandCarousel() {
     <section className="py-14 bg-gray-50 dark:bg-gray-900 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 text-center">
         <h2 className="text-sm font-semibold uppercase tracking-widest text-gray-400 dark:text-gray-500">
-          Spare Parts Catalogues We Install &amp; Support
+          Technology Partners & Hardware Brands
         </h2>
       </div>
 

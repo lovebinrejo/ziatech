@@ -11,77 +11,75 @@ export interface NewsPost {
 
 export const newsPosts: NewsPost[] = [
   {
-    slug: "scania-sdp3-update-2026",
-    title: "New Scania SDP3 v2.52 Update — What's New",
+    slug: "ecommerce-trends-2026",
+    title: "E-Commerce Trends 2026: What UAE Businesses Need",
     excerpt:
-      "Scania has released SDP3 version 2.52 with enhanced ECU coverage for the new Super engine and improved guided diagnostics workflows.",
+      "The UAE market is shifting fast — mobile commerce, fast checkout, and personalised shopping experiences are now table stakes for local businesses.",
     content: `
-Scania recently released SDP3 version 2.52, bringing significant improvements to the diagnostic experience for Scania trucks and buses.
+The UAE e-commerce market is growing rapidly in 2026, and businesses need the right website, payment gateway, and digital strategy to stay competitive.
 
-## Key Updates in v2.52
+## Key Trends for 2026
 
-- **Super Engine Coverage**: Full ECU support for the Scania Super 13-litre engine, including injector coding and after-treatment system calibration.
-- **Guided Diagnostics**: New step-by-step guided diagnostic routines for common fault codes, reducing workshop time.
-- **Improved CAN Logging**: Enhanced real-time data logging with export to CSV for off-board analysis.
-- **PTT Integration**: Seamless workflow with the updated Scania Programmer 3 (PTT) for parameter programming.
+- **Mobile-first stores**: Customers expect fast, easy shopping from their phones.
+- **Secure checkout**: Payment confidence drives higher conversion rates.
+- **Local delivery integration**: Seamless shipping options reduce cart abandonment.
+- **Data-driven marketing**: Use analytics to optimise offers and product placement.
 
-## How to Update
+## How ZIA Tech Solutions Helps
 
-If you are an existing SDP3 customer, the update is available through the Scania Online portal. Our team can assist with the update and ensure your VCI adapter firmware is also current.
-
-**Contact us today** to schedule your SDP3 update or book a remote assistance session.
+We build store experiences that are secure, fast, and tailored to your brand. From website launch to performance optimisation, we handle the technology while you focus on sales.
     `,
-    date: "2026-02-15",
-    category: "Software Update",
+    date: "2026-04-12",
+    category: "E-Commerce",
     readingTime: "3 min read",
-    author: "AutoDiag Team",
+    author: "ZIA Tech Team",
   },
   {
-    slug: "volvo-ptt-3-new-features",
-    title: "Volvo PTT 3.x — Remote Programming & Cloud Features",
+    slug: "it-consultancy-business-growth",
+    title: "How IT Consultancy Drives Small Business Growth",
     excerpt:
-      "Volvo's latest Premium Tech Tool 3 introduces cloud-based ECU updates and remote programming capabilities for authorised workshops.",
+      "Smart IT planning helps businesses reduce costs, improve efficiency, and build a stronger customer experience online and in-store.",
     content: `
-Volvo Trucks has updated its Premium Tech Tool (PTT) to version 3.x, adding cloud connectivity and remote programming features that modernise how workshops interact with Volvo vehicles.
+A well-structured IT strategy can be a game-changer for small and medium-sized businesses, especially in fast-moving markets.
 
-## What's New in PTT 3.x
+## Benefits of IT Consultancy
 
-- **Cloud ECU Updates**: Download and apply ECU software updates directly from Volvo's cloud without manual file management.
-- **Remote Programming**: With customer consent, Volvo technicians can remotely programme ECUs, reducing vehicle downtime.
-- **Connected Workshop**: Live vehicle data streaming to Volvo ASIST (customer support system) for real-time guidance.
-- **Expanded Bus Coverage**: New routines for Volvo 9700 and BZL electric bus platforms.
+- **Technology alignment**: Match systems with business goals.
+- **Cost control**: Avoid overspending on unnecessary hardware.
+- **Scalable infrastructure**: Grow your systems without disruption.
+- **Staff productivity**: Better tools mean faster work.
 
-## Impact for Workshops
+## What We Deliver
 
-Workshops with PTT 3.x licences will see significant reductions in programming time. Our team offers installation, licence renewal, and user training for PTT in the Chennai region.
+We assess your existing setup, recommend practical improvements, and help implement the right tools for your team, whether that's office software, networks, or e-commerce platforms.
     `,
-    date: "2026-01-28",
-    category: "Product News",
+    date: "2026-03-20",
+    category: "IT Consultancy",
     readingTime: "4 min read",
-    author: "AutoDiag Team",
+    author: "ZIA Tech Team",
   },
   {
-    slug: "tecdoc-2026-catalog-launch",
-    title: "TecDoc 2026 Catalogue: Expanded EV & Hybrid Parts Coverage",
+    slug: "technical-installations-best-practices",
+    title: "Technical Installations: Best Practices for Office IT",
     excerpt:
-      "TecDoc's 2026 catalogue release doubles its electric and hybrid vehicle parts data, covering over 2 million new part numbers from 600+ suppliers.",
+      "Reliable cabling, secure WiFi, and clean hardware installation are the foundation of a stable business technology environment.",
     content: `
-TecDoc has released its 2026 parts catalogue update, representing the largest single expansion in the catalogue's history — driven by the rapid growth of EV and hybrid vehicle fleets.
+Installing technology correctly from the start saves time, money, and frustration later on.
 
-## 2026 Highlights
+## Installation Best Practices
 
-- **EV & Hybrid Expansion**: Over 2 million new part numbers covering batteries, inverters, on-board chargers, and high-voltage wiring harnesses.
-- **Indian Market OEMs**: Enhanced coverage for Tata, Mahindra, and Force Motors — important for South Asian workshops.
-- **Improved Search Speed**: TecDoc's new SOLR-based search engine delivers results up to 5× faster.
-- **Mobile App**: The TecDoc app now supports offline catalogue access for field technicians.
+- **Structured cabling**: Keep network wiring organised and future-ready.
+- **Secure WiFi**: Protect your network with the right access controls.
+- **Clean hardware setup**: Configure computers and printers with consistent settings.
+- **Backup systems**: Ensure data protection from day one.
 
-## Upgrading Your TecDoc Licence
+## Our Approach
 
-Contact us to upgrade your TecDoc subscription to the 2026 catalogue. We can assist with data refresh, server-side hosting, and multi-user configurations.
+We plan every installation around your space, your users, and your future needs. That means fewer service calls and a smoother day-to-day experience.
     `,
-    date: "2026-01-10",
-    category: "Industry News",
+    date: "2026-02-08",
+    category: "Technical Installations",
     readingTime: "3 min read",
-    author: "AutoDiag Team",
+    author: "ZIA Tech Team",
   },
 ];

@@ -11,10 +11,10 @@ interface Stat {
 }
 
 const stats: Stat[] = [
-  { value: 10,  suffix: "+", label: "Years Experience",       description: "Serving automotive workshops across the UAE" },
-  { value: 11,  suffix: "+", label: "Brands Supported",       description: "From Benz & Volvo to Caterpillar & TecDoc" },
-  { value: 500, suffix: "+", label: "Installations Done",     description: "Successful software setups and upgrades" },
-  { value: 24,  suffix: "h", label: "Support Response",       description: "Average response time for critical issues" },
+  { value: 10,  suffix: "+", label: "Years Experience",       description: "Delivering e-commerce and office IT services across the UAE" },
+  { value: 11,  suffix: "+", label: "Brands Supported",       description: "Hardware, software, and online platforms for modern businesses" },
+  { value: 500, suffix: "+", label: "Projects Delivered",     description: "Successful websites, IT installs, and support engagements" },
+  { value: 24,  suffix: "h", label: "Support Response",       description: "Average response time for priority business issues" },
 ];
 
 function AnimatedNumber({ value, suffix }: { value: number; suffix: string }) {
@@ -58,7 +58,7 @@ export function StatsSection() {
             viewport={{ once: true }}
             className="text-3xl font-extrabold"
           >
-            Trusted by Workshops Across the UAE
+            Trusted by Businesses Across the UAE
           </motion.h2>
         </div>
 

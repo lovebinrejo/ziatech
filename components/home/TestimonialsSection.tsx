@@ -5,28 +5,28 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "ZTS installed our billing software and TecDoc catalogue in one visit. Everything worked perfectly from day one. Our staff didn't need any training — it was that straightforward. Highly recommended.",
+    quote: "ZTS launched our e-commerce store quickly and helped us move from manual orders to a clean online experience. The whole process was simple and professional.",
     name: "Ahmed Al Hammadi",
-    role: "Owner",
-    company: "Al Hammadi Auto Parts, Sharjah",
+    role: "Founder",
+    company: "ALH Trading Solutions, Sharjah",
     rating: 5,
     initials: "AH",
     color: "#0D9488",
   },
   {
-    quote: "Our printer stopped working right before peak hours. I called ZTS and they fixed it remotely in 20 minutes. That kind of fast support is exactly what a busy spare parts shop needs. Real professionals.",
+    quote: "After our office network failed, ZTS restored connectivity, set up new hardware, and got our team back to work within hours. Their support is fast and dependable.",
     name: "Khalid Nasser",
-    role: "Shop Manager",
-    company: "Gulf Parts Centre, Dubai",
+    role: "Operations Manager",
+    company: "Gulf Retail Group, Dubai",
     rating: 5,
     initials: "KN",
     color: "#2563EB",
   },
   {
-    quote: "They set up Windows, Outlook, the billing system, and network printing across all three of our PCs in a single day. Clean work, fair price, and they explained everything. We use ZTS for all our IT now.",
+    quote: "They designed our website, configured business email, and provided ongoing support. We now have a modern website and a reliable IT partner.",
     name: "Tariq Mansouri",
-    role: "Operations Manager",
-    company: "Emirates Spare Parts Trading, Abu Dhabi",
+    role: "General Manager",
+    company: "Emirates Business Supply, Abu Dhabi",
     rating: 5,
     initials: "TM",
     color: "#8B5CF6",
@@ -58,9 +58,9 @@ export function TestimonialsSection() {
             transition={{ delay: 0.1 }}
             className="text-4xl sm:text-5xl font-black text-gray-900 dark:text-white tracking-tight"
           >
-            Trusted by Spare Parts
+            Trusted by UAE
             <br />
-            <span className="gradient-text">Shops Across the UAE</span>
+            <span className="gradient-text">Business Owners</span>
           </motion.h2>
         </div>
 

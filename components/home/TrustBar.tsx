@@ -5,9 +5,9 @@ import { useRef, useEffect, useState } from "react";
 
 const stats = [
   { value: 800,  suffix: "+", label: "Software Installations" },
-  { value: 200,  suffix: "+", label: "Shops Served" },
+  { value: 200,  suffix: "+", label: "Businesses Served" },
   { value: 10,   suffix: "+", label: "Years Experience" },
-  { value: 99,   suffix: "%", label: "Client Satisfaction" },
+  { value: 100,  suffix: "%", label: "Client Satisfaction" },
 ];
 
 function Counter({ value, suffix }: { value: number; suffix: string }) {

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, MessageCircle, Phone } from "lucide-react";
 
 export function HomeCTA() {
-  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971501234567";
+  const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "971556966870";
 
   return (
     <section className="py-24 bg-navy-900 relative overflow-hidden">
@@ -41,7 +41,7 @@ export function HomeCTA() {
             transition={{ delay: 0.1 }}
             className="text-4xl sm:text-5xl font-black text-white mb-5 tracking-tight"
           >
-            Get Your Shop's Software
+            Get Your Business Technology
             <br />
             <span className="gradient-text">Set Up Today</span>
           </motion.h2>
@@ -53,7 +53,7 @@ export function HomeCTA() {
             transition={{ delay: 0.2 }}
             className="text-gray-400 mb-10 max-w-xl mx-auto leading-relaxed"
           >
-            Contact ZIA Tech Solutions for a free consultation. We assess your needs, recommend the right software, and provide a transparent quote — no obligation.
+            Contact ZIA Tech Solutions for a free consultation. We assess your requirements, recommend the best technology, and provide a transparent quote.
           </motion.p>
 
           <motion.div
@@ -73,7 +73,7 @@ export function HomeCTA() {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
             <a
-              href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hi ZIA Tech Solutions, I would like a quote for software support for my spare parts shop")}`}
+              href={`https://wa.me/${whatsapp}?text=${encodeURIComponent("Hi ZIA Tech Solutions, I would like a quote for e-commerce or IT consultancy services")}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 rounded-xl px-8 py-4 text-base font-bold text-white bg-[#25D366]/20 hover:bg-[#25D366]/30 border border-[#25D366]/30 transition-all duration-200"
