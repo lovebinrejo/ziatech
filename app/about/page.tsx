@@ -130,7 +130,7 @@ export default function AboutPage() {
                   { icon: MapPin, label: "Sharjah, United Arab Emirates", href: undefined },
                   { icon: Phone, label: "+971 55 696 6870", href: "tel:+971556966870" },
                   { icon: Mail, label: "info@ziatechsolutions.ae", href: "mailto:info@ziatechsolutions.ae" },
-                  { icon: Clock, label: "Mon–Fri · 9:00 AM – 6:00 PM GST", href: undefined },
+                  { icon: Clock, label: "Mon–Sat · 9:00 AM – 8:00 PM GST", href: undefined },
                 ].map(({ icon: Icon, label, href }) => (
                   <div key={label} className="flex items-center gap-3">
                     <div className="w-9 h-9 rounded-lg bg-teal-50 dark:bg-teal-950 flex items-center justify-center shrink-0">

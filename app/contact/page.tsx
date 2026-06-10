@@ -34,7 +34,7 @@ export default function ContactPage() {
     {
       icon: Clock,
       label: "Working Hours",
-      value: "Mon–Sat · 9 AM – 6 PM IST",
+      value: "Mon–Sat · 9:00 AM – 8:00 PM GST",
       href: undefined,
     },
   ];

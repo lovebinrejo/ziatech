@@ -140,8 +140,8 @@ export function Footer() {
                   <p className="text-xs text-gray-500 mb-3 uppercase tracking-widest font-medium">Working Hours</p>
                   <div className="space-y-2.5">
                     {[
-                      { day: "Monday – Friday", hours: "9:00 AM – 6:00 PM", active: true },
-                      { day: "Saturday",         hours: "9:00 AM – 2:00 PM", active: true },
+                      { day: "Monday – Friday", hours: "9:00 AM – 8:00 PM", active: true },
+                      { day: "Saturday",         hours: "9:00 AM – 8:00 PM", active: true },
                       { day: "Sunday",            hours: "Closed",            active: false },
                     ].map(({ day, hours, active }) => (
                       <div key={day} className="flex justify-between items-center text-xs">
